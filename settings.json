@@ -92,7 +92,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSave": "afterDelay",
   "github.copilot.enable": {
-    "*": true,
+    "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false
@@ -125,5 +125,17 @@
     "references": true
   },
   "editor.codeActionsOnSave": {},
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
+  },
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.showTabs": "none",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "git.suggestSmartCommit": false,
+  "zenMode.showTabs": "none",
+  "excalidraw.theme": "light",
+  "github.copilot.advanced": {}
 }
