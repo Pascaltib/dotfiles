@@ -1,5 +1,10 @@
-## Toolset
+# This includes the following:
+- VSCode settings
+- VSCode keybindings
+- SSH config
+- Zshrc
+- Zprofile
+- Gitconfig
 
-- [oh-my-zsh](http://ohmyz.sh/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [git](https://git-scm.com/)
+Run `zsh install.sh` to symlink all the files. 
+
