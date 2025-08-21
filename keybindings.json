@@ -57,5 +57,15 @@
   {
     "key": "cmd+1",
     "command": "-workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "shift+alt+k",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]
