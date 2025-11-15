@@ -45,3 +45,9 @@ type -a nvm > /dev/null && load-nvmrc
 # Encoding stuff for the terminal
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+# bun completions
+[ -s "/Users/pascaltiberghien/.bun/_bun" ] && source "/Users/pascaltiberghien/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
